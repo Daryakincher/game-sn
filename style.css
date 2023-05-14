@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
+
+body {
+    margin: 0;
+    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+  
+.none {
+    display: none;
+}
+  .game {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #008000;
+    color: #000;
+  }
+  .game-score {
+    color: #00ff00;
+    border: 2px solid #008000;
+    border-bottom: none;
+    font-size: 1.2rem;
+    padding: 15px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .value {
+    padding: 15px 20px;
+    text-align: center;
+    border: 2px solid #000;
+  }
+  
+  .field {
+    background: #dde3fc;
+    border: 2px solid #008000;
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+  }
+  
+  .cell {
+    border: 1px solid;
+  }
+  
+  .apple {
+    background-image: url(img/apple.png);
+    border-radius: 50%;
+  }
+  
+  .snake-head {
+    background: #289835;
+    border-radius: 40%;
+  }
+  
+  .snake-figure {
+    background: #289835;
+  }
+  
+  .button {
+    height: 70px;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    background: #2e42db;
+    color: white;
+    border: 2px solid #0b1c9e;
+  }
+  .name {
+    width: 100px;
+    background: #ffffff;
+}
